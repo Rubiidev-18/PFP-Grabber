@@ -1,6 +1,7 @@
 async function fetchProfilePicture() {
     const username = document.getElementById('username').value;
     const profilePictureContainer = document.getElementById('profilePictureContainer');
+    profilePictureContainer.innerHTML = `Loading...`;
 
     try {
         // Fetch user data from GitHub API
