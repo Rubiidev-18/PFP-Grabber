@@ -25,6 +25,6 @@ async function fetchProfilePicture() {
         console.error('Error fetching profile picture:', error);
 
         // Display placeholder image in case of error
-        profilePictureContainer.innerHTML = `<img src="static/placeholder.png" alt="Placeholder">`;
+        profilePictureContainer.innerHTML = `<img src="https://pfp-grabber.vercel.app/static/placeholder.png" alt="Placeholder">`;
     }
 }
